@@ -1,5 +1,7 @@
 # Gift List
 
+Week 2 Project of Alchemy University Ethereum Developer Bootcamp Course: GiftList, a Merkle Tree Project
+
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
 
 There are three folders in this repository:
