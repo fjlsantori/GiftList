@@ -1,6 +1,7 @@
 const MerkleTree = require('./MerkleTree');
 const niceList = require('./niceList');
 const verifyProof = require('./verifyProof');
+const prompt = require('prompt-sync')();
 
 // create the merkle tree for the whole nice list
 const merkleTree = new MerkleTree(niceList);
@@ -9,7 +10,7 @@ const merkleTree = new MerkleTree(niceList);
 const root = merkleTree.getRoot();
 
 // find the proof that norman block is in the list 
-const name = 'Norman Block';
+const name = prompt('Type in your name: ');
 const index = niceList.findIndex(n => n === name);
 const proof = merkleTree.getProof(index);
 
