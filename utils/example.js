@@ -13,6 +13,7 @@ const root = merkleTree.getRoot();
 const name = prompt('Type in your name: ');
 const index = niceList.findIndex(n => n === name);
 const proof = merkleTree.getProof(index);
+console.log(root);
 
 // verify proof against the Merkle Root
 console.log( verifyProof(proof, name, root) ); // true, Norman Block is in the list!
