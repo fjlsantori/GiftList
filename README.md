@@ -2,6 +2,8 @@
 
 Week 2 Project of Alchemy University Ethereum Developer Bootcamp Course: GiftList, a Merkle Tree Project
 
+We will need to run `npm install prompt` because we ask the user to input the name we want to validate
+
 To get started with the repository, clone it and then run `npm install` in the top-level directory to install the depedencies.
 
 There are three folders in this repository:
